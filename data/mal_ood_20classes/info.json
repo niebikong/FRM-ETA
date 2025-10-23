@@ -1,0 +1,14 @@
+{
+    "name": "mal_ood_20classes",
+    "id": "mal_ood_20classes--default",
+    "task_type": "multiclass",
+    "n_num_features": 117,
+    "n_cat_features": 0,
+    "train_size": 58083,
+    "val_size": 12446,
+    "test_size": 12447,
+    "n_classes": 20,
+    "unknown_samples": 9058,
+    "original_dataset": "mal",
+    "total_classes": 23
+}

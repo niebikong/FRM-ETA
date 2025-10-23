@@ -1,0 +1,166 @@
+================================================================================
+TRAINING PHASE CONFUSION MATRIX AND CLASSIFICATION REPORT
+================================================================================
+Dataset: mal_ood_20classes
+Known Classes: 20
+Test Accuracy: 0.9916 (99.16%)
+Timestamp: 2025-10-12 22:06:36
+
+CONFUSION MATRIX:
+Rows: True labels, Columns: Predicted labels
+
+          0     1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17    18    19
+  0:   5100     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+  1:      0   720     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+  2:      0     0   446     0     0     0     2     0     0     0     0     0     0     0     0     0     1     0     0     0
+  3:      0     0     0   445     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+  4:      0     0     0     0   426     0     0     4     0     0     0     0     0     0     0     0     1     0     0     0
+  5:      0     0     0     0     0   388     0     0     0     0     0     0     0     0    30     0     0     0     0     0
+  6:      0     0     0     0     0     0   409     0     0     0     0     0     0     0     0     0     0     0     0     0
+  7:      2     0     0     0     2     0     0   336     0     0     0     0     0     0     0     0     0     0     0     0
+  8:      0     0     0     0     0     0     0     0   300     0     0     0     0     0     0     0     0     0     0     0
+  9:      0     0     0     0     0     0     0     0     0   299     0     0     0     0     0     0     0     0     0     0
+ 10:      0     0     0     0     0     0     0     0     0     0   284     0     0     0     0     0     0     0     0     0
+ 11:      0     0     0     0     0     0     0     0     0     0     0   267     0     0     0     0     0     0     0     0
+ 12:      0     0     0     0     0     0     0     0     0     0     0     0   493     0     0     0     0     0     0     0
+ 13:      0     0     0     0     0     0     0     0     0     0     0     0     0   203     0     0     0     0     0     0
+ 14:      0     0     0     0     0    51     0     0     0     0     0     0     0     0   146     0     0     0     0     0
+ 15:      0     0     6     0     0     0     0     0     0     0     0     0     0     0     0   157     3     0     0     0
+ 16:      0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   490     0     0     0
+ 17:      0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   489     0     0
+ 18:      0     0     0     1     0     0     1     0     0     0     0     0     0     0     0     0     0     0   476     0
+ 19:      0     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0   468
+
+CLASSIFICATION METRICS:
+
+Class 0:
+  Precision: 0.9996
+  Recall:    1.0000
+  F1-Score:  0.9998
+  Support:   5100.0
+
+Class 1:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   720.0
+
+Class 2:
+  Precision: 0.9845
+  Recall:    0.9933
+  F1-Score:  0.9889
+  Support:   449.0
+
+Class 3:
+  Precision: 0.9978
+  Recall:    1.0000
+  F1-Score:  0.9989
+  Support:   445.0
+
+Class 4:
+  Precision: 0.9953
+  Recall:    0.9884
+  F1-Score:  0.9919
+  Support:   431.0
+
+Class 5:
+  Precision: 0.8838
+  Recall:    0.9282
+  F1-Score:  0.9055
+  Support:   418.0
+
+Class 6:
+  Precision: 0.9927
+  Recall:    1.0000
+  F1-Score:  0.9963
+  Support:   409.0
+
+Class 7:
+  Precision: 0.9882
+  Recall:    0.9882
+  F1-Score:  0.9882
+  Support:   340.0
+
+Class 8:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   300.0
+
+Class 9:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   299.0
+
+Class 10:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   284.0
+
+Class 11:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   267.0
+
+Class 12:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   493.0
+
+Class 13:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   203.0
+
+Class 14:
+  Precision: 0.8295
+  Recall:    0.7411
+  F1-Score:  0.7828
+  Support:   197.0
+
+Class 15:
+  Precision: 1.0000
+  Recall:    0.9458
+  F1-Score:  0.9721
+  Support:   166.0
+
+Class 16:
+  Precision: 0.9899
+  Recall:    1.0000
+  F1-Score:  0.9949
+  Support:   490.0
+
+Class 17:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  Support:   489.0
+
+Class 18:
+  Precision: 1.0000
+  Recall:    0.9958
+  F1-Score:  0.9979
+  Support:   478.0
+
+Class 19:
+  Precision: 1.0000
+  Recall:    0.9979
+  F1-Score:  0.9989
+  Support:   469.0
+
+MACRO AVERAGE:
+  Precision: 0.9831
+  Recall:    0.9789
+  F1-Score:  0.9808
+
+WEIGHTED AVERAGE:
+  Precision: 0.9915
+  Recall:    0.9916
+  F1-Score:  0.9915
+
+================================================================================

@@ -1,0 +1,17 @@
+{
+    "dataset_name": "mal",
+    "dataset_dir_name": "mal_ood_20classes",
+    "num_known_classes": 20,
+    "model_config": {
+        "d_numerical": 117,
+        "n_classes": 20,
+        "n_features": 117
+    },
+    "training_params": {
+        "use_mixed_precision": true,
+        "accumulation_steps": 1,
+        "batch_size": 256,
+        "val_batch_size": 512,
+        "patience": 10
+    }
+}

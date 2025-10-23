@@ -1,0 +1,11 @@
+{
+    "test_accuracy": 0.9877882220615409,
+    "test_loss": 0.03183525256812572,
+    "best_val_accuracy": 0.986742728587498,
+    "dataset_info": {
+        "original_dataset": "mal",
+        "dataset_dir": "mal_ood_20classes",
+        "num_known_classes": 20,
+        "total_features": 117
+    }
+}
