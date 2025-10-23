@@ -1,5 +1,5 @@
 # FRM-ETA: Feature Relation Graph Enhanced Transformer Architecture
-![alt text](util\image.png)
+![image](util/image.png)
 *Overview of FRM-ETA Model*.
 
 
