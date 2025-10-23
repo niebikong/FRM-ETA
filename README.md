@@ -65,7 +65,7 @@ Edit the configuration in `Training.py`:
 config = {
     'dataset_name': 'dapp',  # Options: dapp:[1-44], mal:[1-23]
     'known_classes': 40,     # Number of known classes for OOD
-    'batch_size': 512,
+    'batch_size': 256,
     'learning_rate': 0.0001,
     'epochs': 30,
     # ... other parameters
@@ -85,6 +85,20 @@ config = {
    - Classes: 1-23 (configurable)
    - Features: Various numerical features
    - File: `data/label_encodered_malicious_TLS-1.csv`
+
+3. **Data preparation**: Dataset download
+
+    - You can download these datasets for pan.baidu.com. And place this CSV file in the `data` folder.
+
+        ```html
+        DAPP Dataset
+        Link: https://pan.baidu.com/s/1dZbxe5YXZErGJa8hI5I6PQ?pwd=vfi8 
+        The extraction code: vfi8
+        
+        MAL Dataset
+        Link: https://pan.baidu.com/s/1dZbxe5YXZErGJa8hI5I6PQ?pwd=vfi8 
+        The extraction code: vfi8
+        ```
 
 ### Dataset Format
 
