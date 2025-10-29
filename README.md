@@ -1,7 +1,6 @@
-# FRM-ETA: Feature Relation Graph Enhanced Transformer Architecture
+# FRM-ETA: Feature Relationship Mining-based Encrypted Traffic Analyzer
 ![image](util/image.png)
 *Overview of FRM-ETA Model*.
-
 
 ## 📋 Requirements
 
